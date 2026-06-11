@@ -122,6 +122,3 @@ The `filter.php` endpoints return only `idMeal`, `strMeal` and `strMealThumb`,
 so category badges only appear once full details load. Multi-ingredient
 filtering and some endpoints require a premium key.
 
-## 📄 License
-
-Open source — free to use and learn from.
