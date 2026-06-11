@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# SPA fallback: send every unknown path to index.html so React Router
+# can handle client-side routes like /recipe/52772 on a hard refresh.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
